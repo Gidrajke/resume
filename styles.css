@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.card {
+    margin: 0px;
+    padding: 0px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 30px ;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    box-sizing: content-box;
+    
+}
+
+.container {
+    background-color: #418767 ;
+    max-width: 750px;
+    margin:auto;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 20px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+body {
+    /* font-family: Verdana, Geneva, sans-serif; */
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    background-color: #C7D0CC;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.info {
+
+    margin-bottom: 20px;
+}
+
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.hobbies {
+    width: 100%;
+    border: 2px solid #A6674F;
+    border-radius: 12px;
+    padding: 0px 10 px;
+    background-color: #A6674F;
+    max-width: 650px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    
+}
+
+.worktable {
+    width: 100%;
+    border: 2px solid #A6674F;
+    border-radius: 12px;
+    padding-left: 10px;
+    background-color: #A6674F;
+    padding-bottom: 20px;
+    max-width: 650px;
+    
+}
+
+
+
+table {
+    width: 400px;
+}
+
+.ramka {
+    border: 2px solid #979C9A ;
+    background-color: #979C9A;
+    padding: 10px 48px;
+    border-radius: 10px;
+    
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color:blue;
+}
+
+a:visited {
+    color:#C7D0CC;
+}
+
+.btn {
+    background:#A6674F;
+    border: none;
+    padding: 15px 20px;
+    color: #fff;
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-block label {
+    display: block;
+    margin-top: 10px;
+}
+
+.form-block input,
+.form-block textarea {
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+}
+
+.form-row {
+    display: flex;
+    
+}
+
+.form-row .form-block {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.form-row .form-block:last-child {
+    margin-right: 0;
+}
